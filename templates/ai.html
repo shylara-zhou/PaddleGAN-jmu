@@ -9,20 +9,44 @@ body{
     <!--*background:url(/static/imges/bvidbg.jpg) no-repeat;*/-->
     background-size: cover;//或者background-size: 100% 100%;
 }
+
+input,submit,button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
 </style>
-  <title>getbvid</title>
+  <title>老照片修复</title>
+
  </head>
  <body>
-
+ <div style="text-align:center">
+<h1>老照片修复系统</h1>
     <form action="upload/" method="POST" enctype="multipart/form-data" align="center">
-
-　　{% csrf_token %}
-　　<input type="file" name="file"/>
-　　<input type="submit" value="提交"/>
+    　　{% csrf_token %}
+    　　<input type="file" name="file"/>
+    　　<input class="button" type="submit" value="提交"/>
     </form>
+<br>
 
-   <div style="text-align:center">
-    <button>查看图片</button>
-   </div> </a>
+        <a href="/runs"> <button class="button">运行</button></a>
+<!--    <form action="runs/" method="POST"  align="center">-->
+
+<!--　　<input type="submit" value="运行"/>-->
+<!--    </form>-->
+<br>
+
+
+        <a href="/see"><button class="button">查看图片</button></a>
+
+ </div>
  </body>
 </html>
