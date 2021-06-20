@@ -1,0 +1,90 @@
+2021-06-09 20:45:50,590 - Wechaty - INFO - on() listen event <scan> with <<function on_scan at 0x0000027F675DDC80>>
+2021-06-09 20:45:50,590 - Wechaty - DEBUG - emit() event <['scan', '<function on_scan at 0x0000027F675DDC80>']> <{}>
+2021-06-09 20:45:50,591 - Wechaty - INFO - on() listen event <login> with <<function on_login at 0x0000027FA8342378>>
+2021-06-09 20:45:50,591 - Wechaty - DEBUG - emit() event <['login', '<function on_login at 0x0000027FA8342378>']> <{}>
+2021-06-09 20:45:50,591 - Wechaty - INFO - on() listen event <message> with <<function on_message at 0x0000027F675DDD08>>
+2021-06-09 20:45:50,592 - Wechaty - DEBUG - emit() event <['message', '<function on_message at 0x0000027F675DDD08>']> <{}>
+2021-06-09 20:45:51,346 - Wechaty - INFO - init_puppet_event_bridge() <<wechaty_puppet_service.puppet.PuppetService object at 0x0000027FA846E6A0>>
+2021-06-09 20:45:51,347 - Wechaty - INFO - initPuppetEventBridge() puppet.on(dong) (listenerCount:1) registering...
+2021-06-09 20:45:51,347 - Wechaty - INFO - initPuppetEventBridge() puppet.on(error) (listenerCount:1) registering...
+2021-06-09 20:45:51,348 - Wechaty - INFO - initPuppetEventBridge() puppet.on(heart-beat) (listenerCount:1) registering...
+2021-06-09 20:45:51,348 - Wechaty - INFO - initPuppetEventBridge() puppet.on(ready) (listenerCount:1) registering...
+2021-06-09 20:45:51,348 - Wechaty - INFO - receive <reset> event <%s>
+2021-06-09 20:45:51,348 - Wechaty - INFO - initPuppetEventBridge() puppet.on(reset) (listenerCount:0) registering...
+2021-06-09 20:45:51,349 - Wechaty - INFO - initPuppetEventBridge() puppet.on(friendship) (listenerCount:1) registering...
+2021-06-09 20:45:51,349 - Wechaty - INFO - initPuppetEventBridge() puppet.on(login) (listenerCount:1) registering...
+2021-06-09 20:45:51,349 - Wechaty - INFO - initPuppetEventBridge() puppet.on(logout) (listenerCount:1) registering...
+2021-06-09 20:45:51,349 - Wechaty - INFO - initPuppetEventBridge() puppet.on(message) (listenerCount:1) registering...
+2021-06-09 20:45:51,350 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-invite) (listenerCount:1) registering...
+2021-06-09 20:45:51,350 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-join) (listenerCount:1) registering...
+2021-06-09 20:45:51,354 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-leave) (listenerCount:1) registering...
+2021-06-09 20:45:51,354 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-topic) (listenerCount:1) registering...
+2021-06-09 20:45:51,354 - Wechaty - INFO - initPuppetEventBridge() puppet.on(scan) (listenerCount:1) registering...
+2021-06-09 20:45:51,354 - Wechaty - INFO - starting puppet ...
+2021-06-09 20:45:51,354 - HostiePuppet - INFO - init puppet
+2021-06-09 20:45:51,355 - HostiePuppet - INFO - There is no endpoint in cache, trying to fetch endpoint with token.
+2021-06-09 20:45:52,632 - HostiePuppet - DEBUG - get puppet ip address : <{'ip': '1.117.146.80', 'port': 8080}>
+2021-06-09 20:45:52,637 - HostiePuppet - INFO - starting the puppet ...
+2021-06-09 20:45:58,474 - HostiePuppet - INFO - puppet has started ...
+2021-06-09 20:45:58,475 - HostiePuppet - INFO - listening the event from the puppet ...
+2021-06-09 20:45:58,635 - HostiePuppet - DEBUG - receive login info <{'contactId': '@7e5ff185f0372b5fe086eb9994f27c3d7477d7b69edd7b539f133b04501c7837'}>
+2021-06-09 20:45:58,635 - wechaty.plugin - INFO - init the plugins ...
+2021-06-09 20:45:58,635 - Wechaty - INFO - receive <login> event <EventLoginPayload(contact_id='@7e5ff185f0372b5fe086eb9994f27c3d7477d7b69edd7b539f133b04501c7837')>
+2021-06-09 20:45:58,737 - Contact - INFO - load contact <Contact <@7e5ff185f0372b5fe086eb9994f27c3d7477d7b69edd7b539f133b04501c7837> <陌路>>
+2021-06-09 20:45:58,738 - Wechaty - DEBUG - emit() event <['Contact <@7e5ff185f0372b5fe086eb9994f27c3d7477d7b69edd7b539f133b04501c7837> <陌路>']> <{}>
+2021-06-09 20:46:02,223 - HostiePuppet - DEBUG - receive message info <{'messageId': '846822606529985760'}>
+2021-06-09 20:46:02,223 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='846822606529985760', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-06-09 20:46:02,223 - Message - DEBUG - Message ready <Message <846822606529985760> is not ready>
+2021-06-09 20:46:02,451 - Contact - INFO - load contact <Contact <@ff60278bd7854573c7553652de44188d57badeac939a6214fee5637066dfe818> <Yu>>
+2021-06-09 20:46:02,451 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@7e5ff185f0372b5fe086eb9994f27c3d7477d7b69edd7b539f133b04501c7837> <陌路>	[让我看看]>
+2021-06-09 20:46:02,451 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@7e5ff185f0372b5fe086eb9994f27c3d7477d7b69edd7b539f133b04501c7837> <陌路>\t[让我看看]']> <{}>
+2021-06-09 20:46:09,240 - HostiePuppet - DEBUG - receive message info <{'messageId': '8887748638098527340'}>
+2021-06-09 20:46:09,240 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='8887748638098527340', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-06-09 20:46:09,240 - Message - DEBUG - Message ready <Message <8887748638098527340> is not ready>
+2021-06-09 20:46:09,723 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@ff60278bd7854573c7553652de44188d57badeac939a6214fee5637066dfe818> <Yu>	[苦涩][苦涩][苦涩][苦涩]>
+2021-06-09 20:46:09,724 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@ff60278bd7854573c7553652de44188d57badeac939a6214fee5637066dfe818> <Yu>\t[苦涩][苦涩][苦涩][苦涩]']> <{}>
+2021-06-09 20:46:10,117 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-06-09 20:46:24,924 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-06-09 20:46:39,922 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-06-09 20:46:57,264 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-06-09 20:47:04,663 - HostiePuppet - DEBUG - receive message info <{'messageId': '7872980652423902925'}>
+2021-06-09 20:47:04,663 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='7872980652423902925', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-06-09 20:47:04,664 - Message - DEBUG - Message ready <Message <7872980652423902925> is not ready>
+2021-06-09 20:47:04,896 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@ff60278bd7854573c7553652de44188d57badeac939a6214fee5637066dfe818> <Yu>	hello>
+2021-06-09 20:47:04,896 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@ff60278bd7854573c7553652de44188d57badeac939a6214fee5637066dfe818> <Yu>\thello']> <{}>
+2021-06-09 20:47:04,896 - Message - INFO - say() <自动回复: 目前的功能是：收到一张黑白老照片, 自动上色
+ >
+2021-06-09 20:47:05,111 - HostiePuppet - DEBUG - receive message info <{'messageId': '16232428247330818'}>
+2021-06-09 20:47:05,112 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16232428247330818', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-06-09 20:47:05,112 - Message - DEBUG - Message ready <Message <16232428247330818> is not ready>
+2021-06-09 20:47:05,160 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-06-09 20:47:05,281 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@7e5ff185f0372b5fe086eb9994f27c3d7477d7b69edd7b539f133b04501c7837> <陌路>	自动回复: 目前的功能是：收到一张黑白老照片, 自动上色<br> >
+2021-06-09 20:47:05,281 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@7e5ff185f0372b5fe086eb9994f27c3d7477d7b69edd7b539f133b04501c7837> <陌路>\t自动回复: 目前的功能是：收到一张黑白老照片, 自动上色<br> ']> <{}>
+2021-06-09 20:47:05,410 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-06-09 20:47:10,002 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-06-09 20:47:24,928 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-06-09 20:47:39,972 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-06-09 20:47:54,925 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-06-09 20:48:05,816 - HostiePuppet - DEBUG - receive message info <{'messageId': '5532476624093031476'}>
+2021-06-09 20:48:05,816 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='5532476624093031476', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-06-09 20:48:05,816 - Message - DEBUG - Message ready <Message <5532476624093031476> is not ready>
+2021-06-09 20:48:05,945 - Wechaty - INFO - receive message <Message#message_type_image[🗣 Contact <@ff60278bd7854573c7553652de44188d57badeac939a6214fee5637066dfe818> <Yu>>
+2021-06-09 20:48:05,946 - Wechaty - DEBUG - emit() event <['Message#message_type_image[🗣 Contact <@ff60278bd7854573c7553652de44188d57badeac939a6214fee5637066dfe818> <Yu>']> <{}>
+2021-06-09 20:48:05,946 - Message - INFO - say() <已收到图片，正在上色中，请稍后。。。
+ >
+2021-06-09 20:48:06,088 - HostiePuppet - DEBUG - receive message info <{'messageId': '16232428858430864'}>
+2021-06-09 20:48:06,089 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16232428858430864', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-06-09 20:48:06,089 - Message - DEBUG - Message ready <Message <16232428858430864> is not ready>
+2021-06-09 20:48:06,091 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-06-09 20:48:06,589 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@7e5ff185f0372b5fe086eb9994f27c3d7477d7b69edd7b539f133b04501c7837> <陌路>	已收到图片，正在上色中，请稍后。。。<br> >
+2021-06-09 20:48:06,589 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@7e5ff185f0372b5fe086eb9994f27c3d7477d7b69edd7b539f133b04501c7837> <陌路>\t已收到图片，正在上色中，请稍后。。。<br> ']> <{}>
+2021-06-09 20:48:06,597 - Wechaty - DEBUG - emit() event <['']> <{}>
+2021-06-09 20:48:10,029 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-06-09 20:48:25,185 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-06-09 20:48:39,935 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-06-09 20:48:54,960 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-06-09 20:49:15,241 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-06-09 20:49:24,922 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-06-09 20:49:40,438 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-06-09 20:49:54,915 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-06-09 20:50:10,004 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>

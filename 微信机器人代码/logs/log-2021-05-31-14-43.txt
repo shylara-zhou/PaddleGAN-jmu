@@ -1,0 +1,210 @@
+2021-05-31 14:43:28,525 - Wechaty - INFO - on() listen event <scan> with <<function on_scan at 0x000001D8D56A3048>>
+2021-05-31 14:43:28,526 - Wechaty - DEBUG - emit() event <['scan', '<function on_scan at 0x000001D8D56A3048>']> <{}>
+2021-05-31 14:43:28,526 - Wechaty - INFO - on() listen event <login> with <<function on_login at 0x000001D9361B8D90>>
+2021-05-31 14:43:28,526 - Wechaty - DEBUG - emit() event <['login', '<function on_login at 0x000001D9361B8D90>']> <{}>
+2021-05-31 14:43:28,526 - Wechaty - INFO - on() listen event <message> with <<function on_message at 0x000001D8D56A32F0>>
+2021-05-31 14:43:30,779 - Wechaty - DEBUG - emit() event <['message', '<function on_message at 0x000001D8D56A32F0>']> <{}>
+2021-05-31 14:43:30,837 - Wechaty - INFO - init_puppet_event_bridge() <<wechaty_puppet_service.puppet.PuppetService object at 0x000001D8D6004F98>>
+2021-05-31 14:43:30,838 - Wechaty - INFO - initPuppetEventBridge() puppet.on(dong) (listenerCount:1) registering...
+2021-05-31 14:43:30,838 - Wechaty - INFO - initPuppetEventBridge() puppet.on(error) (listenerCount:1) registering...
+2021-05-31 14:43:30,838 - Wechaty - INFO - initPuppetEventBridge() puppet.on(heart-beat) (listenerCount:1) registering...
+2021-05-31 14:43:30,838 - Wechaty - INFO - initPuppetEventBridge() puppet.on(ready) (listenerCount:1) registering...
+2021-05-31 14:43:30,838 - Wechaty - INFO - receive <reset> event <%s>
+2021-05-31 14:43:30,838 - Wechaty - INFO - initPuppetEventBridge() puppet.on(reset) (listenerCount:0) registering...
+2021-05-31 14:43:30,838 - Wechaty - INFO - initPuppetEventBridge() puppet.on(friendship) (listenerCount:1) registering...
+2021-05-31 14:43:30,839 - Wechaty - INFO - initPuppetEventBridge() puppet.on(login) (listenerCount:1) registering...
+2021-05-31 14:43:30,839 - Wechaty - INFO - initPuppetEventBridge() puppet.on(logout) (listenerCount:1) registering...
+2021-05-31 14:43:30,839 - Wechaty - INFO - initPuppetEventBridge() puppet.on(message) (listenerCount:1) registering...
+2021-05-31 14:43:30,839 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-invite) (listenerCount:1) registering...
+2021-05-31 14:43:30,839 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-join) (listenerCount:1) registering...
+2021-05-31 14:43:30,839 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-leave) (listenerCount:1) registering...
+2021-05-31 14:43:30,839 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-topic) (listenerCount:1) registering...
+2021-05-31 14:43:30,840 - Wechaty - INFO - initPuppetEventBridge() puppet.on(scan) (listenerCount:1) registering...
+2021-05-31 14:43:30,840 - Wechaty - INFO - starting puppet ...
+2021-05-31 14:43:30,840 - HostiePuppet - INFO - init puppet
+2021-05-31 14:43:30,840 - HostiePuppet - INFO - There is no endpoint in cache, trying to fetch endpoint with token.
+2021-05-31 14:43:31,336 - HostiePuppet - DEBUG - get puppet ip address : <{'ip': '1.117.146.80', 'port': 8080}>
+2021-05-31 14:43:31,339 - HostiePuppet - INFO - starting the puppet ...
+2021-05-31 14:43:33,177 - HostiePuppet - INFO - puppet has started ...
+2021-05-31 14:43:33,177 - HostiePuppet - INFO - listening the event from the puppet ...
+2021-05-31 14:43:33,217 - HostiePuppet - DEBUG - receive login info <{'contactId': '@a49d0afda6235880a5c8fa6d249be6d5c9ef2f1e0519e42c87c1881a82e68a9f'}>
+2021-05-31 14:43:33,217 - wechaty.plugin - INFO - init the plugins ...
+2021-05-31 14:43:33,218 - Wechaty - INFO - receive <login> event <EventLoginPayload(contact_id='@a49d0afda6235880a5c8fa6d249be6d5c9ef2f1e0519e42c87c1881a82e68a9f')>
+2021-05-31 14:43:33,256 - Contact - INFO - load contact <Contact <@a49d0afda6235880a5c8fa6d249be6d5c9ef2f1e0519e42c87c1881a82e68a9f> <陌路>>
+2021-05-31 14:43:33,256 - Wechaty - DEBUG - emit() event <['Contact <@a49d0afda6235880a5c8fa6d249be6d5c9ef2f1e0519e42c87c1881a82e68a9f> <陌路>']> <{}>
+2021-05-31 14:43:48,083 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:43:48,818 - HostiePuppet - DEBUG - receive message info <{'messageId': '5410625864448174163'}>
+2021-05-31 14:43:48,818 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='5410625864448174163', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-05-31 14:43:48,818 - Message - DEBUG - Message ready <Message <5410625864448174163> is not ready>
+2021-05-31 14:43:48,927 - Contact - INFO - load contact <Contact <@2e17cf68260256692617a29c48e4b0c138d571b1bab49cfcb1aa40647dd69193> <Yu>>
+2021-05-31 14:43:48,927 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@2e17cf68260256692617a29c48e4b0c138d571b1bab49cfcb1aa40647dd69193> <Yu>	hi>
+2021-05-31 14:43:48,927 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@2e17cf68260256692617a29c48e4b0c138d571b1bab49cfcb1aa40647dd69193> <Yu>\thi']> <{}>
+2021-05-31 14:43:48,927 - Message - INFO - say() <这是自动回复: 机器人目前的功能是：收到一张黑白老照片, 自动帮你上色哦
+ >
+2021-05-31 14:43:48,966 - HostiePuppet - DEBUG - receive message info <{'messageId': '16224434273360636'}>
+2021-05-31 14:43:48,967 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16224434273360636', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-05-31 14:43:48,967 - Message - DEBUG - Message ready <Message <16224434273360636> is not ready>
+2021-05-31 14:43:48,968 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-05-31 14:43:49,004 - Wechaty - DEBUG - emit() event <["(<Status.INTERNAL: 13>, 'no id', None)"]> <{}>
+2021-05-31 14:43:49,115 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <@a49d0afda6235880a5c8fa6d249be6d5c9ef2f1e0519e42c87c1881a82e68a9f> <陌路>	这是自动回复: 机器人目前的功能是：收到一张黑白老照片, 自动帮你上色哦<br> >
+2021-05-31 14:43:49,115 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <@a49d0afda6235880a5c8fa6d249be6d5c9ef2f1e0519e42c87c1881a82e68a9f> <陌路>\t这是自动回复: 机器人目前的功能是：收到一张黑白老照片, 自动帮你上色哦<br> ']> <{}>
+2021-05-31 14:43:55,454 - HostiePuppet - DEBUG - receive message info <{'messageId': '5327186922919683908'}>
+2021-05-31 14:43:55,454 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='5327186922919683908', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-05-31 14:43:55,454 - Message - DEBUG - Message ready <Message <5327186922919683908> is not ready>
+2021-05-31 14:43:55,535 - Wechaty - INFO - receive message <Message#message_type_image[🗣 Contact <@2e17cf68260256692617a29c48e4b0c138d571b1bab49cfcb1aa40647dd69193> <Yu>>
+2021-05-31 14:43:55,535 - Wechaty - DEBUG - emit() event <['Message#message_type_image[🗣 Contact <@2e17cf68260256692617a29c48e4b0c138d571b1bab49cfcb1aa40647dd69193> <Yu>']> <{}>
+2021-05-31 14:43:55,536 - Message - INFO - Message to FileBox
+2021-05-31 14:44:29,864 - Message - INFO - say() <<wechaty_puppet.file_box.file_box.FileBox object at 0x000001D936464748>>
+2021-05-31 14:44:29,878 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:44:29,878 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:44:33,085 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:44:34,237 - HostiePuppet - DEBUG - receive message info <{'messageId': '16224434726030260'}>
+2021-05-31 14:44:34,237 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16224434726030260', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-05-31 14:44:34,237 - Message - DEBUG - Message ready <Message <16224434726030260> is not ready>
+2021-05-31 14:44:34,239 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-05-31 14:44:34,276 - Wechaty - DEBUG - emit() event <["(<Status.INTERNAL: 13>, 'no id', None)"]> <{}>
+2021-05-31 14:44:34,557 - Wechaty - INFO - receive message <Message#message_type_image[🗣 Contact <@a49d0afda6235880a5c8fa6d249be6d5c9ef2f1e0519e42c87c1881a82e68a9f> <陌路>>
+2021-05-31 14:44:34,558 - Wechaty - DEBUG - emit() event <['Message#message_type_image[🗣 Contact <@a49d0afda6235880a5c8fa6d249be6d5c9ef2f1e0519e42c87c1881a82e68a9f> <陌路>']> <{}>
+2021-05-31 14:44:34,558 - Message - INFO - Message to FileBox
+2021-05-31 14:44:35,192 - Wechaty - DEBUG - emit() event <['FileBox.toFile($./image/5327186922919683908.jpg): file exist. use FileBox.toFile($./image/5327186922919683908.jpg, true) to force overwrite.']> <{}>
+2021-05-31 14:44:48,085 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:45:03,096 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:45:18,084 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:45:33,085 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:45:48,085 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:46:03,086 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:46:18,085 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:46:33,090 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:46:48,086 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:46:58,023 - HostiePuppet - DEBUG - receive message info <{'messageId': '1986599383089317602'}>
+2021-05-31 14:46:58,024 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1986599383089317602', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-05-31 14:46:58,024 - Message - DEBUG - Message ready <Message <1986599383089317602> is not ready>
+2021-05-31 14:46:58,099 - Wechaty - INFO - receive message <Message#message_type_image[🗣 Contact <@2e17cf68260256692617a29c48e4b0c138d571b1bab49cfcb1aa40647dd69193> <Yu>>
+2021-05-31 14:46:58,099 - Wechaty - DEBUG - emit() event <['Message#message_type_image[🗣 Contact <@2e17cf68260256692617a29c48e4b0c138d571b1bab49cfcb1aa40647dd69193> <Yu>']> <{}>
+2021-05-31 14:46:58,100 - Message - INFO - Message to FileBox
+2021-05-31 14:47:30,863 - Message - INFO - say() <<wechaty_puppet.file_box.file_box.FileBox object at 0x000001D8D55FD2B0>>
+2021-05-31 14:47:30,866 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:47:30,866 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:47:31,577 - HostiePuppet - DEBUG - receive message info <{'messageId': '16224436499330256'}>
+2021-05-31 14:47:31,577 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-05-31 14:47:31,578 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16224436499330256', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-05-31 14:47:31,578 - Message - DEBUG - Message ready <Message <16224436499330256> is not ready>
+2021-05-31 14:47:31,606 - Wechaty - DEBUG - emit() event <["(<Status.INTERNAL: 13>, 'no id', None)"]> <{}>
+2021-05-31 14:47:31,672 - Wechaty - INFO - receive message <Message#message_type_image[🗣 Contact <@a49d0afda6235880a5c8fa6d249be6d5c9ef2f1e0519e42c87c1881a82e68a9f> <陌路>>
+2021-05-31 14:47:31,672 - Wechaty - DEBUG - emit() event <['Message#message_type_image[🗣 Contact <@a49d0afda6235880a5c8fa6d249be6d5c9ef2f1e0519e42c87c1881a82e68a9f> <陌路>']> <{}>
+2021-05-31 14:47:31,672 - Message - INFO - Message to FileBox
+2021-05-31 14:47:31,815 - Wechaty - DEBUG - emit() event <['FileBox.toFile($./image/1986599383089317602.jpg): file exist. use FileBox.toFile($./image/1986599383089317602.jpg, true) to force overwrite.']> <{}>
+2021-05-31 14:47:33,087 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:47:48,087 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:48:03,087 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:48:18,100 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:48:33,088 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:48:48,088 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:49:03,090 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:49:18,100 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:49:32,854 - HostiePuppet - DEBUG - receive message info <{'messageId': '545777177624758236'}>
+2021-05-31 14:49:32,855 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='545777177624758236', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-05-31 14:49:32,855 - Message - DEBUG - Message ready <Message <545777177624758236> is not ready>
+2021-05-31 14:49:32,921 - Wechaty - INFO - receive message <Message#message_type_image[🗣 Contact <@2e17cf68260256692617a29c48e4b0c138d571b1bab49cfcb1aa40647dd69193> <Yu>>
+2021-05-31 14:49:32,921 - Wechaty - DEBUG - emit() event <['Message#message_type_image[🗣 Contact <@2e17cf68260256692617a29c48e4b0c138d571b1bab49cfcb1aa40647dd69193> <Yu>']> <{}>
+2021-05-31 14:49:32,921 - Message - INFO - Message to FileBox
+2021-05-31 14:49:33,089 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:50:05,257 - Message - INFO - say() <<wechaty_puppet.file_box.file_box.FileBox object at 0x000001D8D56478D0>>
+2021-05-31 14:50:05,259 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:50:05,259 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:50:05,632 - HostiePuppet - DEBUG - receive message info <{'messageId': '16224438039980370'}>
+2021-05-31 14:50:05,632 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-05-31 14:50:05,633 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16224438039980370', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-05-31 14:50:05,633 - Message - DEBUG - Message ready <Message <16224438039980370> is not ready>
+2021-05-31 14:50:05,662 - Wechaty - DEBUG - emit() event <["(<Status.INTERNAL: 13>, 'no id', None)"]> <{}>
+2021-05-31 14:50:05,715 - Wechaty - INFO - receive message <Message#message_type_image[🗣 Contact <@a49d0afda6235880a5c8fa6d249be6d5c9ef2f1e0519e42c87c1881a82e68a9f> <陌路>>
+2021-05-31 14:50:05,715 - Wechaty - DEBUG - emit() event <['Message#message_type_image[🗣 Contact <@a49d0afda6235880a5c8fa6d249be6d5c9ef2f1e0519e42c87c1881a82e68a9f> <陌路>']> <{}>
+2021-05-31 14:50:05,715 - Message - INFO - Message to FileBox
+2021-05-31 14:50:05,870 - Wechaty - DEBUG - emit() event <['FileBox.toFile($./image/545777177624758236.jpg): file exist. use FileBox.toFile($./image/545777177624758236.jpg, true) to force overwrite.']> <{}>
+2021-05-31 14:50:18,090 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:50:33,090 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:50:48,094 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:50:57,093 - HostiePuppet - DEBUG - receive message info <{'messageId': '5286122863048456749'}>
+2021-05-31 14:50:57,093 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='5286122863048456749', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-05-31 14:50:57,093 - Message - DEBUG - Message ready <Message <5286122863048456749> is not ready>
+2021-05-31 14:50:57,161 - Wechaty - INFO - receive message <Message#message_type_image[🗣 Contact <@2e17cf68260256692617a29c48e4b0c138d571b1bab49cfcb1aa40647dd69193> <Yu>>
+2021-05-31 14:50:57,161 - Wechaty - DEBUG - emit() event <['Message#message_type_image[🗣 Contact <@2e17cf68260256692617a29c48e4b0c138d571b1bab49cfcb1aa40647dd69193> <Yu>']> <{}>
+2021-05-31 14:50:57,161 - Message - INFO - Message to FileBox
+2021-05-31 14:51:29,742 - Message - INFO - say() <<wechaty_puppet.file_box.file_box.FileBox object at 0x000001D936599320>>
+2021-05-31 14:51:29,745 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:51:29,745 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:51:30,300 - HostiePuppet - DEBUG - receive message info <{'messageId': '16224438886630879'}>
+2021-05-31 14:51:30,301 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-05-31 14:51:30,302 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16224438886630879', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-05-31 14:51:30,302 - Message - DEBUG - Message ready <Message <16224438886630879> is not ready>
+2021-05-31 14:51:30,332 - Wechaty - DEBUG - emit() event <["(<Status.INTERNAL: 13>, 'no id', None)"]> <{}>
+2021-05-31 14:51:30,371 - Wechaty - INFO - receive message <Message#message_type_image[🗣 Contact <@a49d0afda6235880a5c8fa6d249be6d5c9ef2f1e0519e42c87c1881a82e68a9f> <陌路>>
+2021-05-31 14:51:30,371 - Wechaty - DEBUG - emit() event <['Message#message_type_image[🗣 Contact <@a49d0afda6235880a5c8fa6d249be6d5c9ef2f1e0519e42c87c1881a82e68a9f> <陌路>']> <{}>
+2021-05-31 14:51:30,371 - Message - INFO - Message to FileBox
+2021-05-31 14:51:30,513 - Wechaty - DEBUG - emit() event <['FileBox.toFile($./image/5286122863048456749.jpg): file exist. use FileBox.toFile($./image/5286122863048456749.jpg, true) to force overwrite.']> <{}>
+2021-05-31 14:51:33,091 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:51:48,091 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:52:03,101 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:52:18,092 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:52:33,094 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:52:33,273 - HostiePuppet - DEBUG - receive message info <{'messageId': '4468958601943064988'}>
+2021-05-31 14:52:33,274 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='4468958601943064988', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-05-31 14:52:33,274 - Message - DEBUG - Message ready <Message <4468958601943064988> is not ready>
+2021-05-31 14:52:33,330 - Wechaty - INFO - receive message <Message#message_type_image[🗣 Contact <@2e17cf68260256692617a29c48e4b0c138d571b1bab49cfcb1aa40647dd69193> <Yu>>
+2021-05-31 14:52:33,330 - Wechaty - DEBUG - emit() event <['Message#message_type_image[🗣 Contact <@2e17cf68260256692617a29c48e4b0c138d571b1bab49cfcb1aa40647dd69193> <Yu>']> <{}>
+2021-05-31 14:52:33,330 - Message - INFO - Message to FileBox
+2021-05-31 14:53:06,917 - Message - INFO - say() <<wechaty_puppet.file_box.file_box.FileBox object at 0x000001D93648A588>>
+2021-05-31 14:53:06,926 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:53:06,926 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:53:12,278 - HostiePuppet - DEBUG - receive message info <{'messageId': '16224439906400975'}>
+2021-05-31 14:53:12,278 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16224439906400975', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-05-31 14:53:12,279 - Message - DEBUG - Message ready <Message <16224439906400975> is not ready>
+2021-05-31 14:53:12,303 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-05-31 14:53:12,331 - Wechaty - DEBUG - emit() event <["(<Status.INTERNAL: 13>, 'no id', None)"]> <{}>
+2021-05-31 14:53:12,372 - Wechaty - INFO - receive message <Message#message_type_image[🗣 Contact <@a49d0afda6235880a5c8fa6d249be6d5c9ef2f1e0519e42c87c1881a82e68a9f> <陌路>>
+2021-05-31 14:53:12,372 - Wechaty - DEBUG - emit() event <['Message#message_type_image[🗣 Contact <@a49d0afda6235880a5c8fa6d249be6d5c9ef2f1e0519e42c87c1881a82e68a9f> <陌路>']> <{}>
+2021-05-31 14:53:12,372 - Message - INFO - Message to FileBox
+2021-05-31 14:53:12,522 - Wechaty - DEBUG - emit() event <['FileBox.toFile($./image/4468958601943064988.jpg): file exist. use FileBox.toFile($./image/4468958601943064988.jpg, true) to force overwrite.']> <{}>
+2021-05-31 14:53:18,093 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:53:33,102 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:53:38,913 - HostiePuppet - DEBUG - receive message info <{'messageId': '4035683269141282957'}>
+2021-05-31 14:53:38,913 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='4035683269141282957', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-05-31 14:53:38,913 - Message - DEBUG - Message ready <Message <4035683269141282957> is not ready>
+2021-05-31 14:53:38,970 - Wechaty - INFO - receive message <Message#message_type_image[🗣 Contact <@2e17cf68260256692617a29c48e4b0c138d571b1bab49cfcb1aa40647dd69193> <Yu>>
+2021-05-31 14:53:38,970 - Wechaty - DEBUG - emit() event <['Message#message_type_image[🗣 Contact <@2e17cf68260256692617a29c48e4b0c138d571b1bab49cfcb1aa40647dd69193> <Yu>']> <{}>
+2021-05-31 14:53:38,970 - Message - INFO - Message to FileBox
+2021-05-31 14:54:12,657 - Message - INFO - say() <<wechaty_puppet.file_box.file_box.FileBox object at 0x000001D9368C2A20>>
+2021-05-31 14:54:12,664 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:54:12,664 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:54:14,971 - HostiePuppet - DEBUG - receive message info <{'messageId': '16224440533370543'}>
+2021-05-31 14:54:14,971 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16224440533370543', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-05-31 14:54:14,971 - Message - DEBUG - Message ready <Message <16224440533370543> is not ready>
+2021-05-31 14:54:14,973 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-05-31 14:54:15,017 - Wechaty - DEBUG - emit() event <["(<Status.INTERNAL: 13>, 'no id', None)"]> <{}>
+2021-05-31 14:54:15,342 - Wechaty - INFO - receive message <Message#message_type_image[🗣 Contact <@a49d0afda6235880a5c8fa6d249be6d5c9ef2f1e0519e42c87c1881a82e68a9f> <陌路>>
+2021-05-31 14:54:15,342 - Wechaty - DEBUG - emit() event <['Message#message_type_image[🗣 Contact <@a49d0afda6235880a5c8fa6d249be6d5c9ef2f1e0519e42c87c1881a82e68a9f> <陌路>']> <{}>
+2021-05-31 14:54:15,342 - Message - INFO - Message to FileBox
+2021-05-31 14:54:15,481 - Wechaty - DEBUG - emit() event <['FileBox.toFile($./image/4035683269141282957.jpg): file exist. use FileBox.toFile($./image/4035683269141282957.jpg, true) to force overwrite.']> <{}>
+2021-05-31 14:54:18,096 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:54:31,468 - HostiePuppet - DEBUG - receive message info <{'messageId': '3418928009757674689'}>
+2021-05-31 14:54:31,468 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='3418928009757674689', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-05-31 14:54:31,468 - Message - DEBUG - Message ready <Message <3418928009757674689> is not ready>
+2021-05-31 14:54:31,521 - Wechaty - INFO - receive message <Message#message_type_image[🗣 Contact <@2e17cf68260256692617a29c48e4b0c138d571b1bab49cfcb1aa40647dd69193> <Yu>>
+2021-05-31 14:54:31,521 - Wechaty - DEBUG - emit() event <['Message#message_type_image[🗣 Contact <@2e17cf68260256692617a29c48e4b0c138d571b1bab49cfcb1aa40647dd69193> <Yu>']> <{}>
+2021-05-31 14:54:31,522 - Message - INFO - Message to FileBox
+2021-05-31 14:55:06,684 - Message - INFO - say() <<wechaty_puppet.file_box.file_box.FileBox object at 0x000001D9364B8A20>>
+2021-05-31 14:55:06,692 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:55:06,692 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:55:06,692 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:55:10,008 - HostiePuppet - DEBUG - receive message info <{'messageId': '16224441083720675'}>
+2021-05-31 14:55:10,009 - Message - DEBUG - Message ready <Message <None> is not ready>
+2021-05-31 14:55:10,009 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='16224441083720675', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-05-31 14:55:10,009 - Message - DEBUG - Message ready <Message <16224441083720675> is not ready>
+2021-05-31 14:55:10,038 - Wechaty - DEBUG - emit() event <["(<Status.INTERNAL: 13>, 'no id', None)"]> <{}>
+2021-05-31 14:55:10,085 - Wechaty - INFO - receive message <Message#message_type_image[🗣 Contact <@a49d0afda6235880a5c8fa6d249be6d5c9ef2f1e0519e42c87c1881a82e68a9f> <陌路>>
+2021-05-31 14:55:10,086 - Wechaty - DEBUG - emit() event <['Message#message_type_image[🗣 Contact <@a49d0afda6235880a5c8fa6d249be6d5c9ef2f1e0519e42c87c1881a82e68a9f> <陌路>']> <{}>
+2021-05-31 14:55:10,086 - Message - INFO - Message to FileBox
+2021-05-31 14:55:10,235 - Wechaty - DEBUG - emit() event <['FileBox.toFile($./image/3418928009757674689.jpg): file exist. use FileBox.toFile($./image/3418928009757674689.jpg, true) to force overwrite.']> <{}>
+2021-05-31 14:55:18,094 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:55:33,095 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>
+2021-05-31 14:55:48,095 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat@browserbridge ding'}>

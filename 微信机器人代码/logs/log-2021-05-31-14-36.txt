@@ -1,0 +1,12 @@
+2021-05-31 14:36:01,048 - Wechaty - INFO - on() listen event <scan> with <<function on_scan at 0x0000020AA0633048>>
+2021-05-31 14:36:01,048 - Wechaty - DEBUG - emit() event <['scan', '<function on_scan at 0x0000020AA0633048>']> <{}>
+2021-05-31 14:36:01,049 - Wechaty - INFO - on() listen event <login> with <<function on_login at 0x0000020AC28FDD90>>
+2021-05-31 14:36:01,049 - Wechaty - DEBUG - emit() event <['login', '<function on_login at 0x0000020AC28FDD90>']> <{}>
+2021-05-31 14:36:01,049 - Wechaty - INFO - on() listen event <message> with <<function on_message at 0x0000020AA06332F0>>
+2021-05-31 14:36:01,051 - Wechaty - DEBUG - emit() event <['message', '<function on_message at 0x0000020AA06332F0>']> <{}>
+2021-05-31 14:36:56,295 - Wechaty - INFO - on() listen event <scan> with <<function on_scan at 0x0000029651B83048>>
+2021-05-31 14:36:56,295 - Wechaty - DEBUG - emit() event <['scan', '<function on_scan at 0x0000029651B83048>']> <{}>
+2021-05-31 14:36:56,295 - Wechaty - INFO - on() listen event <login> with <<function on_login at 0x00000296B2658D90>>
+2021-05-31 14:36:56,295 - Wechaty - DEBUG - emit() event <['login', '<function on_login at 0x00000296B2658D90>']> <{}>
+2021-05-31 14:36:56,295 - Wechaty - INFO - on() listen event <message> with <<function on_message at 0x0000029651B832F0>>
+2021-05-31 14:36:56,295 - Wechaty - DEBUG - emit() event <['message', '<function on_message at 0x0000029651B832F0>']> <{}>
